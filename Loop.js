@@ -23,3 +23,13 @@ let arrA = [0,1,2,3,4,5,6,7];
 for(let i of arrA){
     console.log(arrA[i])
 }
+
+
+//return object
+
+console.log(Object.keys({name : "park", job : "programer"}))
+console.log(Object.values({name : "park", job : "programer"}))
+console.log(Object.entries({name : "park", job : "programer"}))
+
+//for ... in 문은 객체를 순환 하고
+//for ... of 문은 배열의 값을 순환 한다.
