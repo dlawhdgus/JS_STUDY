@@ -18,4 +18,4 @@ let meetup = {
     }
 };
   
-console.log( JSON.stringify(meetup,null,1));
+console.log( JSON.stringify(meetup,null,'ㅁ'));
