@@ -64,3 +64,11 @@ const b = (b) => {
     console.log(`${b}`)
 }
 b(4)
+
+function f(n) {
+    if (n <= 1) {
+       return 1 // 종료 조건
+    }
+    return n * f(n-1) // 재귀함수
+}
+console.log(f(5))
